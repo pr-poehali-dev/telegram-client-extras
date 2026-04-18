@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "POST bad email",
+      "method": "POST",
+      "path": "/",
+      "body": {"email": "notanemail"},
+      "expectedStatus": 404
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "tests": [
+    {
+      "name": "POST / without auth",
+      "method": "POST",
+      "path": "/",
+      "body": {"data": ""},
+      "expectedStatus": 401
+    }
+  ]
+}
