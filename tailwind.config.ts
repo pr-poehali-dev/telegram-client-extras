@@ -64,6 +64,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				}
 			},
+			fontFamily: {
+				'ibm': ['"IBM Plex Sans"', 'sans-serif'],
+				'mono-app': ['"IBM Plex Mono"', 'monospace'],
+			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
@@ -89,7 +93,10 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fadeIn 0.25s ease forwards',
+				'slide-in': 'slideIn 0.25s ease forwards',
+				'message-in': 'messageIn 0.2s ease forwards',
 			}
 		}
 	},
